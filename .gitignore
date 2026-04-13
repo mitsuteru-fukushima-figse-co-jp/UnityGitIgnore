@@ -1,3 +1,9 @@
+
+Gemini
+Alpha
+ファイルについて質問する
+Google ドライブで Gemini が できること
+Gemini in Workspace は、不正確な情報を表示することがあります。 詳細
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
@@ -11,6 +17,12 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 *.log
+
+# Visual Studio 2015 cache directory
+/.vs/
+
+# Visual Studio code
+.vscode/*
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
@@ -43,6 +55,7 @@ ExportedObj/
 *.csproj
 *.unityproj
 *.sln
+*.slnx
 *.suo
 *.tmp
 *.user
@@ -97,3 +110,13 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
